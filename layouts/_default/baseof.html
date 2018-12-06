@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<html>
+{{ partial "head" . }}
+<body>
+	{{ partial "nav" . }}
+
+	<div class="w3-container w3-content">
+	{{ block "main" . }}
+	{{ end }}
+	</div>
+
+	{{ partial "footer" . }}
+</body>
+
+</html>

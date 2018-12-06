@@ -1,0 +1,21 @@
+
+{{ define "main" }}
+	{{ .Page.Title }}
+
+	<br>
+	list
+
+	{{ range (.Paginator 3).Pages }}
+
+	<a href="{{.Permalink }}">{{ .Title }}</a>
+
+	<div class="w3-card featured-image">
+		{{ .Title }}
+		<img src="{{ .Params.Image }}">
+	</div>
+
+	{{ end }}
+
+	{{ template "_internal/pagination.html" . }}
+
+{{ end }}
