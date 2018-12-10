@@ -2,6 +2,7 @@
 title: "Real Estate Newton Property"
 date: 2018-12-09T19:58:27-05:00
 draft: false
+image: https://res.cloudinary.com/jakegibs617/image/upload/c_scale,w_500/v1544403402/best-uncropped_-_2.webp
 ---
 
 <p>The following photos I took for a property. We did not use these photos to show the property, since there was already a different photographer booked for the gig. That said I took these photos to demonstrate what I can do. The main difference between my photos and that of the professional photographer was that the photographer used a full frame camera and kept the photos blown out more, aka very bright and less saturated. </p>

@@ -14,7 +14,30 @@ body {
 	color: #fff;
 }
 
+/* Start list */
 
+.w3-card.featured-image{
+	background-color: #718792;
+	max-width: 500px;
+	text-align: center;
+	margin: auto;
+	padding: 10px;
+}
+/* End list */
+
+/* Start footer */
+
+footer{
+	background-color: black;
+	color: #1c313a;
+	margin-top: 90px;
+	padding: 50px;
+	text-align: center;
+}
+
+/* End footer */
+
+/* start masonry */
 .masonry {
 	font-size: .85em;
 	margin: 1.5em;
@@ -32,6 +55,7 @@ body {
     background: #718792;
     box-shadow: 2px 2px 4px 0 #1c313a;
     box-sizing: border-box;
+    color: #1c313a;
     -moz-box-sizing: border-box;
 	-webkit-transition:1s ease all;
     -webkit-box-sizing: border-box;
@@ -67,3 +91,29 @@ body {
         -webkit-column-count: 2;
     }
 }
+/* end masonry */
+
+/* start nav */
+.disabled{
+	color: #718792;
+}
+
+/* start single */
+.content{
+	padding: 0 20px;
+}
+.content p {
+	width: 80%;
+	margin: auto;
+	color: #1c313a;
+}
+h2.single-title{
+	color: #718792;
+	padding: 0 20px;
+	text-align: center;
+}
+.date{
+	text-align: center;
+}
+
+/* end single */

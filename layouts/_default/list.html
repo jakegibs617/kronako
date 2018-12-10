@@ -1,18 +1,17 @@
 
 {{ define "main" }}
-	{{ .Page.Title }}
-
-	<br>
-	list
-
+<br>
+<br>
+<br>
 	{{ range (.Paginator 3).Pages }}
 
-	<a href="{{.Permalink }}">{{ .Title }}</a>
 
-	<div class="w3-card featured-image">
-		{{ .Title }}
+	<a href="{{.Permalink }}">
+		<div class="w3-card featured-image">
 		<img src="{{ .Params.Image }}">
-	</div>
+			<p>{{ .Title }}</p>
+		</div>
+	</a>
 
 	{{ end }}
 
