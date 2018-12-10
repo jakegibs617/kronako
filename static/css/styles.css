@@ -22,6 +22,11 @@ body {
 	text-align: center;
 	margin: auto;
 	padding: 10px;
+	margin: 20px auto;
+}
+.w3-card.featured-image img{
+	width: 400px;
+	max-height: 400px;
 }
 /* End list */
 

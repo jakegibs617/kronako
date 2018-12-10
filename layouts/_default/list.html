@@ -3,15 +3,17 @@
 <br>
 <br>
 <br>
+<div class="masonry">
 	{{ range (.Paginator 3).Pages }}
 
-
-	<a href="{{.Permalink }}">
-		<div class="w3-card featured-image">
-		<img src="{{ .Params.Image }}">
-			<p>{{ .Title }}</p>
-		</div>
-	</a>
+	<div class="item">
+		<a href="{{.Permalink }}">
+			<div class=" featured-image">
+				<img src="{{ .Params.Image }}">
+				<p>{{ .Title }}</p>
+			</div>
+		</a>
+	</div>
 
 	{{ end }}
 
