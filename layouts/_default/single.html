@@ -2,8 +2,8 @@
 {{ define "main" }}
 	<h2>{{ .Page.Title }}</h2>
 
-	{{ .Content }}
+	<div class="Content">{{ .Content }}</div>
 
-	<p style="color:tomato;">{{ .Page.Date }}</p>
+	<p class="Date">{{ .Page.Date }}</p>
 
 {{ end }}
