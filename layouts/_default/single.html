@@ -4,6 +4,6 @@
 
 	<div class="content">{{ .Content }}</div>
 
-	<p class="date">{{ .Page.Date }}</p>
+	<p class="date">{{ .Page.PublishDate.Format "1.2.2006" }}</p>
 
 {{ end }}
