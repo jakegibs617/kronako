@@ -6,5 +6,5 @@ image: https://res.cloudinary.com/jakegibs617/image/upload/c_crop,h_300,w_400,x_
 ---
 <div>
 	<p style="text-align:center;">This was a property I painted, and helped stage for the photos. I took this for my own records, but there was another photographer who was used</p><br>
-	<img style="width:100%;" src="https://res.cloudinary.com/jakegibs617/image/upload/x_1268/v1544441430/UNADJUSTEDNONRAW_thumb_11e5.webp">
+	<img style="width:100%;background-color:black;padding:20px;" src="https://res.cloudinary.com/jakegibs617/image/upload/x_1268/v1544441430/UNADJUSTEDNONRAW_thumb_11e5.webp">
 </div>

@@ -14,28 +14,28 @@ image: https://res.cloudinary.com/jakegibs617/image/upload/f_auto,q_99/v15444414
 	<img style="width:30%;margin:5px;" src="https://res.cloudinary.com/jakegibs617/image/upload/c_scale,w_500/v1544442996/opt-3_kitchen-yellow.webp">
 </div>
 
-<div class="masonry">
-  <div class="item">
+<div class="grid">
+  <div class="card">
     1
     <img src="https://res.cloudinary.com/jakegibs617/image/upload/c_scale,w_500/v1544441430/UNADJUSTEDNONRAW_thumb_1e7e.webp">
   </div>
-  <div class="item">
+  <div class="card">
     2
     <img src="https://res.cloudinary.com/jakegibs617/image/upload/c_scale,w_500/v1544441430/UNADJUSTEDNONRAW_thumb_1e7b.webp">
   </div>
-  <div class="item">
+  <div class="card">
     3
     <img src="https://res.cloudinary.com/jakegibs617/image/upload/c_scale,w_500/v1544441430/UNADJUSTEDNONRAW_thumb_1e66.webp">
   </div>
-  <div class="item">
+  <div class="card">
     4
     <img src="https://res.cloudinary.com/jakegibs617/image/upload/c_scale,w_500/v1544441430/UNADJUSTEDNONRAW_thumb_1e7b.webp">
   </div>
-  <div class="item">
+  <div class="card">
     5
     <img src="https://res.cloudinary.com/jakegibs617/image/upload/c_scale,w_500/v1544441430/UNADJUSTEDNONRAW_thumb_1e7a.webp">
   </div>
-  <div class="item">
+  <div class="card">
     6
     <img src="https://res.cloudinary.com/jakegibs617/image/upload/c_scale,w_500/v1544441430/UNADJUSTEDNONRAW_thumb_1e7f.webp">
   </div>

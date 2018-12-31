@@ -3,10 +3,10 @@
 <br>
 <br>
 <br>
-<div class="masonry">
+<div class="grid">
 	{{ range (.Paginator 3).Pages }}
 
-	<div class="item">
+	<div class="card">
 		<a href="{{.Permalink }}">
 			<div class=" featured-image">
 				<img src="{{ .Params.Image }}">

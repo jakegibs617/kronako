@@ -2,20 +2,23 @@
 
 <html>
 {{ partial "head" . }}
-<body>
+<body style="background-image: url(https://res.cloudinary.com/jakegibs617/image/upload/f_auto/v1545963072/like-father-like-son.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;">
 	{{ partial "nav" . }}
 
-	<br>
-	<br>
-	<br>
+	
+	<div style="text-align:center;padding:25%;line-height:50px;font-size:1.5rem;">
+		<a href="/paintings">Paintings</a><br>
+		<a href="/photos">Photos</a>
+	</div>
 
-	<p style="padding:20px">
-		Site is under construction. 
-		<br>In the meantime, check out some of my <a href="/photos">real estate photos</a>
-	</p>
-    <a href="/photos"><div style="padding:20px"><img src="https://res.cloudinary.com/jakegibs617/image/upload/c_scale,w_500/v1544403402/best-uncropped_-_2.webp">
-	</div></a>
+<div style="background-color:#fff;padding:140px 130px;color:black;margin-bottom:-90px;margin-top:50px;">
+	Welcome to my new site! Much is still under construction, but feel free to contact me for more information or photos, and be sure to follow me on instagram <a style="font-weight:bold;color:tomato;" href="https://www.instagram.com/jacobgiberson_studio/">@jacobgiberson_studio</a>
+</div>
 	{{ partial "footer" . }}
+
 
 </body>
 
