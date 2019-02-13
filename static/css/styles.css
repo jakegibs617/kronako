@@ -72,6 +72,8 @@ footer{
     /*width: 33%;*/
 }
 .card img{
+    object-fit: cover;
+    object-position: 50% 0;
 	width:100%;
 }
 .card a{
