@@ -3,19 +3,19 @@
 <br>
 <br>
 <br>
-<div class="grid">
-	{{ range (.Paginator 3).Pages }}
+<!-- <div class="grid"> -->
+	<!-- {{ range (.Paginator 3).Pages }} -->
 
-	<div class="card">
+	<!-- <div class="card"> -->
 		<a href="{{.Permalink }}">
 			<div class=" featured-image">
 				<img src="{{ .Params.Image }}">
 				<p>{{ .Title }}</p>
 			</div>
 		</a>
-	</div>
-
-	{{ end }}
+	<!-- </div> -->
+	<!-- {{ end }} -->
+<!-- </div> -->
 
 	{{ template "_internal/pagination.html" . }}
 

@@ -10,14 +10,14 @@ $P — Dark: #1c313a;
 
 body {
 	font-family: 'Comfortaa', cursive;
-	background: #aaa;
-	color: #fff;
+	color: #FFF;
+	top:0;
 }
 
 /* Start list */
 
 .w3-card.featured-image{
-	background-color: #fff;
+	background-color: #FFF;
 	max-width: 500px;
 	text-align: center;
 	margin: auto;
@@ -83,29 +83,6 @@ footer{
 	float:right;
 }
 
-/*@media only screen and (max-width: 320px) {
-    .masonry {
-        column-count: 1;
-        -moz-column-count: 1;
-        -webkit-column-count: 1;
-    }
-}
-
-@media only screen and (min-width: 321px) and (max-width: 768px){
-    .masonry {
-        column-count: 1;
-        -moz-column-count: 1;
-        -webkit-column-count: 1;
-    }
-}
-@media only screen and (min-width: 769px) and (max-width: 1200px){
-    .masonry {
-        column-count: 2;
-        -moz-column-count: 2;
-        -webkit-column-count: 2;
-    }
-}*/
-/* end masonry */
 
 /* start nav */
 .disabled{
@@ -115,6 +92,17 @@ footer{
 /* start single */
 .content{
 	padding: 0 20px;
+}
+.content p img{
+  height: 400px;
+  width: auto;
+}
+
+@media only screen and (max-width: 650px) {
+	.content p img {
+		height: auto;
+		width: inherit;
+	}
 }
 .content p {
     width: 80%;
