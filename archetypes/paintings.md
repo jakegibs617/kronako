@@ -4,5 +4,5 @@ date: {{ .Date }}
 draft: false
 medium: tbd
 dateCreated: 2019
+image: 
 ---
-

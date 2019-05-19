@@ -8,10 +8,11 @@ image: https://res.cloudinary.com/jakegibs617/image/upload/v1558221481/street-wo
 ---
 
 
-![2-8](https://res.cloudinary.com/jakegibs617/image/upload/c_limit,f_auto,w_450,x_499,y_667/v1558221481/street-worker-green.png)
+![Street Worker Green](https://res.cloudinary.com/jakegibs617/image/upload/c_limit,f_auto,w_450,x_499,y_667/v1558221481/street-worker-green.png)
 <div class="container">
 	<div class="specs">
 		<p>Spray Paint on Canvas</p>
+		<p>12" x 24"</p>
 		<p>2013</p>
 	</div>
 

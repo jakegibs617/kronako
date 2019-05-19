@@ -6,11 +6,12 @@ image: https://res.cloudinary.com/jakegibs617/image/upload/f_auto,q_99/v15459630
 dateCreated: 2018
 ---
 
-![like-father-like-son](https://res.cloudinary.com/jakegibs617/image/upload/f_auto,q_99/v1545963072/like-father-like-son.jpg)
+![Like Father Like Son](https://res.cloudinary.com/jakegibs617/image/upload/f_auto,q_99/v1545963072/like-father-like-son.jpg)
 
 <div class="container">
 	<div class="specs">
 		<p>Acrylic on Canvas</p>
+		<p>84" x 48"</p>
 		<p>2018</p>
 	</div>
 </div>

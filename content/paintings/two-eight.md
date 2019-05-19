@@ -10,6 +10,7 @@ dateCreated: 2018
 <div class="container">
 	<div class="specs">
 		<p>Acrylic on Canvas</p>
+		<p>27" x 57"</p>
 		<p>2018</p>
 	</div>
 

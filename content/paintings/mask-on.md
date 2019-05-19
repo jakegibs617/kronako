@@ -8,11 +8,12 @@ dateCreated: 2018
 ---
 
 
-![untitled](https://res.cloudinary.com/jakegibs617/image/upload/c_limit,f_auto,w_450,x_499,y_667/v1546217535/untitled_0.jpg)
+![Mask On](https://res.cloudinary.com/jakegibs617/image/upload/c_limit,f_auto,w_450,x_499,y_667/v1546217535/untitled_0.jpg)
 
 <div class="container">
 	<div class="specs">
 		<p>Acrylic on Canvas</p>
+		<p>36" x 24"</p>
 		<p>2018</p>
 	</div>
 </div>
