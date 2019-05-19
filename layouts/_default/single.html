@@ -1,9 +1,11 @@
 
 {{ define "main" }}
+	<div class="site-name"></div>
+
 	<h2 class="single-title">{{ .Page.Title }}</h2>
 
 	<div class="content">{{ .Content }}</div>
 
-	<p class="date">{{ .Page.PublishDate.Format "1.2.2006" }}</p>
+	<!-- <p class="date">{{ .Page.PublishDate.Format "2006" }}</p> -->
 
 {{ end }}
