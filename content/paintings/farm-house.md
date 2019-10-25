@@ -7,8 +7,8 @@ dateCreated: 2015
 image: https://res.cloudinary.com/jakegibs617/image/upload/v1558221848/farm-house.png
 ---
 
+<a href="{{< param image >}}" data-lightbox="image-1" data-title="Farm House"><img src="{{< param image >}}"/></a>
 
-![Farm House](https://res.cloudinary.com/jakegibs617/image/upload/c_limit,f_auto,w_450,x_499,y_667/v1558221848/farm-house.png)
 
 <div class="container">
 	<div class="specs">

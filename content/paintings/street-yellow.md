@@ -7,7 +7,8 @@ dateCreated: 2013
 image: https://res.cloudinary.com/jakegibs617/image/upload/v1558221569/street-yellow.png
 ---
 
-![Street Yellow](https://res.cloudinary.com/jakegibs617/image/upload/c_limit,f_auto,w_450,x_499,y_667/v1558221569/street-yellow.png)
+<a href="{{< param image >}}" data-lightbox="image-1" data-title="Street Yellow"><img src="{{< param image >}}"/></a>
+
 <div class="container">
 	<div class="specs">
 		<p>Spray Paint on Concrete on Canvas</p>

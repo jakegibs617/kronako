@@ -6,7 +6,7 @@ image: https://res.cloudinary.com/jakegibs617/image/upload/f_auto,q_99/v15459630
 dateCreated: 2018
 ---
 
-![Like Father Like Son](https://res.cloudinary.com/jakegibs617/image/upload/f_auto,q_99/v1545963072/like-father-like-son.jpg)
+<a href="{{< param image >}}" data-lightbox="image-1" data-title="Like Father Like Son"><img src="{{< param image >}}"/></a>
 
 <div class="container">
 	<div class="specs">

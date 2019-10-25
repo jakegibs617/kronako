@@ -9,4 +9,19 @@
 }
 .w3-content {
      margin-top: 0px; 
+ } 
+
+ .lb-outerContainer{
+ 	/*width: 80% !important;*/
  }
+
+@media only screen and (max-width: 900px) {
+ .lb-outerContainer{
+ 	/*width: auto !important;*/
+ }
+ }
+a.lb-close {
+    position: absolute !important;
+    top: -31px !important;
+    right: 25px !important;
+}

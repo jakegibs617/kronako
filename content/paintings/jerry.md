@@ -7,7 +7,7 @@ dateCreated: 2018
 image: https://res.cloudinary.com/jakegibs617/image/upload/v1558221847/jerry.png
 ---
 
-![Jerry](https://res.cloudinary.com/jakegibs617/image/upload/c_limit,f_auto,w_450,x_499,y_667/v1558221847/jerry.png)
+<a href="{{< param image >}}" data-lightbox="image-1" data-title={{< param title >}}><img src="{{< param image >}}"/></a>
 
 <div class="container">
 	<div class="specs">

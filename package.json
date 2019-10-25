@@ -1,0 +1,25 @@
+{
+  "name": "kronako",
+  "version": "1.0.0",
+  "description": "hugo site portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakegibs617/kronako.git"
+  },
+  "keywords": [
+    "kronako"
+  ],
+  "author": "jgiberson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jakegibs617/kronako/issues"
+  },
+  "homepage": "https://github.com/jakegibs617/kronako#readme",
+  "dependencies": {
+    "lightbox2": "^2.11.1"
+  }
+}

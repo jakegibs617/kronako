@@ -7,8 +7,7 @@ medium:
 dateCreated: 2018
 ---
 
-
-![Mask On](https://res.cloudinary.com/jakegibs617/image/upload/c_limit,f_auto,w_450,x_499,y_667/v1546217535/untitled_0.jpg)
+<a href="{{< param image >}}" data-lightbox="image-1" data-title="Mask On"><img src="{{< param image >}}"/></a>
 
 <div class="container">
 	<div class="specs">

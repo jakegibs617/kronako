@@ -8,7 +8,8 @@ image: https://res.cloudinary.com/jakegibs617/image/upload/v1558221481/street-wo
 ---
 
 
-![Street Worker Green](https://res.cloudinary.com/jakegibs617/image/upload/c_limit,f_auto,w_450,x_499,y_667/v1558221481/street-worker-green.png)
+<a href="{{< param image >}}" data-lightbox="image-1" data-title="Street Worker Green"><img src="{{< param image >}}"/></a>
+
 <div class="container">
 	<div class="specs">
 		<p>Spray Paint on Canvas</p>
