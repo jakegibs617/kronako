@@ -221,6 +221,13 @@ a{
   top: 0.15rem;
   position: relative;
 }
+.about-page {
+	width: 75vw;
+	margin: auto;
+}
+.about-page p{
+	text-align: left;
+}
 
 
 
