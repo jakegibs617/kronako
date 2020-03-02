@@ -4,11 +4,26 @@
 
 	<h2 class="single-title">{{ .Page.Title }}</h2>
 
+	
+
+	<div class="prevnext-bar">
+		<div id=prev_button>{{ with .NextInSection }}
+		  <a title="prev" href="{{ .Permalink }}"> </a>
+		{{ end }}
+		</div>
 	<div class="content">{{ .Content }}</div>
 
+		<div id=next_button>{{ with .PrevInSection }}
+		  <a title="next" href="{{ .Permalink }}"></a>
+		{{ end }}
+		</div>
+	</div>
 	<!-- <p class="date">{{ .Page.PublishDate.Format "2006" }}</p> -->
+	
 <br>
 <br>
 <br>
 <br>
 {{ end }}
+
+

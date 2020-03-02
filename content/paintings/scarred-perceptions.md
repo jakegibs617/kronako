@@ -19,4 +19,3 @@ image: https://res.cloudinary.com/jakegibs617/image/upload/v1558221396/scarred-p
 
 </div>
 
-<a href="{{with .Site.RegularPages.Next . }}">yrds</a>
