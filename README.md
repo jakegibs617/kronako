@@ -1,23 +1,23 @@
 
+<!-- run server -->
 $ hugo server -D
 <!-- http://localhost:1313/projects/veracode/ -->
 
 <!-- to create a new item -->
-hugo new paintings/2-8.md
+$ hugo new paintings/2-8.md
 <!-- hugo new project-name/item.md -->
 
 
 
-//development
-	<!-- go here to get css classes -->
-	https://www.w3schools.com/w3css/default.asp
+<!-- go here to get css classes -->
+https://www.w3schools.com/w3css/default.asp
 
 
 <!-- notes -->
-create dir in layouts for projects and define list for that project
+- create dir in layouts for projects and define list for that project
 
 
-Lightbox shortcodes:
+-Lightbox shortcodes:
 <!--
 The shortcode uses named arguments because I wanted some of them (such as width and center) to be optional. The arguments are:
 

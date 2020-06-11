@@ -28,7 +28,7 @@ draft: false
 	<br>
 
 
-	Many of the paintings play with the juxtaposition of chaos and structure. This originates with older work of mine which focused on an inner conflict of self as a biracial heterosexual American born man who passes as white. 
+	Many of the paintings play with the juxtaposition of chaos and structure. This originates with older work of mine which focused on an inner conflict of self as a biracial (black + white) man who passes as white. 
 
 	<br>
 	<br>
