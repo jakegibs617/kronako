@@ -114,15 +114,26 @@ footer{
 div#next_button a, div#prev_button a{
 	position: absolute;
     top: 50vh;
-    border: black;
-    border: solid;
-    padding: 20px;
-    border-radius: 12px;
+    width: 50px;
+	height: 50px;
+	border-radius: 20px;
+	border: none;
+	box-shadow: 2px 3px 7px rgba(0,0,0,0.23), 0px 0px 0px rgba(255, 255, 255, 0.3);
+
+}
+div#next_button a:hover, div#prev_button a:hover {
+  box-shadow: 3px 4px 8px rgba(0,0,0,0.25) inset, -8px -8px 12px rgba(255,255,255,0.3) inset;
 }
 div#next_button a{
-	/*color:tomato;*/
 	float: right;
-	margin: 0px -40px;
+	margin: 0px -10px;
+}
+div#prev_button a:before, div#next_button a:after{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: rgba(0,0,0,0.1)
 }
 div#next_button a:after{
 	content: '\003E';
