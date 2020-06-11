@@ -1,0 +1,227 @@
+@charset "UTF-8";
+/*
+$Primary: #455a64;
+$Light: #718792;
+$P — Dark: #1c313a;
+*/
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+body {
+  font-family: 'Comfortaa', cursive;
+  color: #FFF;
+  top: 0;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat; }
+
+/* Start footer */
+footer {
+  background-color: lightgrey;
+  color: #fafafa;
+  text-align: right;
+  padding: 20px;
+  font-size: 1.2rem; }
+
+/* End footer */
+/* start grid */
+.featured-image img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center; }
+
+.grid {
+  display: grid;
+  grid: 150px / auto auto auto;
+  grid-gap: 10px;
+  /*background-color: tomato;*/
+  padding: 10px;
+  grid-auto-flow: row;
+  color: #718792; }
+
+.card:nth-child(1) {
+  /*grid-row-start / grid-column-start / grid-row-end / grid-column-end.*/
+  grid-area: 1 / 1 / span 3 / span 3; }
+
+.card:nth-child(1) .featured-image img {
+  object-fit: cover;
+  object-position: center; }
+
+.card {
+  background-color: rgba(250, 250, 250, 0.2);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 1.25rem;
+  position: relative; }
+
+.card a {
+  text-decoration: none; }
+
+.card:hover {
+  border-radius: 5px;
+  display: block;
+  opacity: 0.8;
+  background-image: #718792; }
+
+/* start nav */
+.disabled {
+  color: #718792; }
+
+/* start single */
+.content {
+  /*padding: 0 20px;*/
+  display: inline-block;
+  margin: auto;
+  width: 100%;
+  height: 70vh; }
+
+.content p img {
+  /*padding: 50px;*/
+  max-height: 65vh;
+  max-width: 100%; }
+
+.welcome {
+  background-color: #fff;
+  padding: 140px 130px;
+  color: black;
+  margin-bottom: -90px;
+  margin-top: 50px; }
+
+.homeMenu {
+  text-align: center;
+  padding: 25%;
+  line-height: 50px;
+  font-size: 1.5rem; }
+
+.site-name {
+  display: inline-block;
+  height: 50px;
+  width: 250px;
+  margin: 10px;
+  background-image: url(https://res.cloudinary.com/jakegibs617/image/upload/v1545963083/site-title_1.png);
+  background-size: 100%;
+  background-repeat: no-repeat; }
+
+div#next_button a, div#prev_button a {
+  position: absolute;
+  top: 50vh;
+  border: black;
+  border: solid;
+  padding: 20px;
+  border-radius: 12px; }
+
+div#next_button a {
+  /*color:tomato;*/
+  float: right;
+  margin: 0px -40px;
+  border-radius: 50%; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #a5a5a5; }
+
+.next_button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #a5a5a5;
+  width: 200px;
+  height: 50px;
+  font-family: 'Raleway';
+  font-size: large;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.25), -8px -8px 12px rgba(255, 255, 255, 0.3); }
+
+#next_button:hover {
+  box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.25) inset, -8px -8px 12px rgba(255, 255, 255, 0.3) inset; }
+
+div#next_button a:after {
+  content: '\003E'; }
+
+div#prev_button a {
+  float: left; }
+
+div#prev_button a:before {
+  content: '\003C'; }
+
+.prevnext-bar {
+  color: #999;
+  padding: 20px;
+  display: flex;
+  width: 85vw;
+  margin: auto; }
+
+@media only screen and (max-width: 900px) {
+  .site-name {
+    width: 100%;
+    height: 100px; }
+  body {
+    height: -webkit-fill-available; }
+  .homeMenu {
+    padding: 50% 0; }
+  .content p img {
+    max-height: 500px;
+    /*width: 100%;*/
+    padding: 10px; }
+  .content {
+    margin-bottom: 20px; }
+  .welcome {
+    padding: 130px 20px;
+    margin-bottom: 0px;
+    text-align: justify; }
+  .w3-top {
+    font-size: 1.5rem; }
+  div#next_button a {
+    /*color:tomato;*/
+    float: right; }
+  div#next_button a, div#prev_button a {
+    top: 85vh; } }
+
+.content p {
+  /*width: 80%;*/
+  margin: 10px auto;
+  color: #1c313a;
+  text-align: center; }
+
+h2.single-title {
+  /*padding: 20px 0 0 0;*/
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  color: #000;
+  font-size: 18px; }
+
+.date {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 50px; }
+
+.container {
+  width: 80%;
+  margin: 0 auto; }
+
+/* end single */
+div.specs {
+  line-height: 12px;
+  margin-top: 25px; }
+
+div.specs p {
+  padding: 0px; }
+
+a {
+  text-decoration: none; }
+
+.inline-svg {
+  display: inline-block;
+  height: 1.15rem;
+  width: 1.15rem;
+  top: 0.15rem;
+  position: relative; }
+
+.about-page {
+  width: 75vw;
+  margin: auto; }
+
+.about-page p {
+  text-align: left; }
