@@ -18,9 +18,10 @@ body {
 footer{
 	background-color: lightgrey;
 	color: rgba(250,250,250,1);
-	text-align: right;
+	text-align: center;
 	padding: 20px;
-	font-size: 1.2rem;
+	margin-bottom: 30px;
+	font-size: 1rem;
 }
 
 /* End footer */
@@ -52,8 +53,8 @@ footer{
 .card {
 	background-color: rgba(250,250,250,0.2);
 	text-align: center;
-	padding: 20px 0;
-	font-size: 1.25rem;
+	padding: 0;
+	font-size: 1rem;
 	position: relative;
 }
 .card a{
@@ -90,10 +91,10 @@ footer{
 }
 .welcome{
 	background-color:#fff;
-	padding:140px 130px;
+	padding:140px;
 	color:black;
-	margin-bottom:-90px;
-	margin-top:50px;
+	margin: auto 0 -50px;
+	text-align: center;
 }
 .homeMenu{
 	text-align:center;
@@ -107,6 +108,8 @@ footer{
 	width: 250px;
 	margin:10px;
 	background-image: url(https://res.cloudinary.com/jakegibs617/image/upload/v1545963083/site-title_1.png);
+	background-position: center;
+	background-size: cover;
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
@@ -232,6 +235,7 @@ a{
   top: 0.15rem;
   position: relative;
 }
+/* ABOUT PAGE START */
 .about-page {
 	width: 75vw;
 	margin: auto;
@@ -239,6 +243,17 @@ a{
 .about-page p{
 	text-align: left;
 }
+.studio p{
+	color: black;
+	font-size: 0.75rem;
+	padding: 0 20px;
+	line-height: 10px;
+}
+.studio a{
+	color: tomato;
+	text-decoration: underline;
+}
 
+/* ABOUT PAGE END */
 
 

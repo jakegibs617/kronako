@@ -4,8 +4,8 @@ date: 2020-03-01T23:09:39-05:00
 draft: false
 ---
 <div class="about-page">
-	<h2>Statement</h2>
-	<p>on process:
+	<h2>On Process</h2>
+	<p>
 
 	<br>
 	<br>
@@ -33,10 +33,13 @@ draft: false
 	<br>
 	<br>
 
-
 	There is a conversation around perception both inner and outer perceptions. Many of the paintings are done in tandem, and eventually become diptychs based on both approaching different angles of the origin message. 
 
 	</p>
 
-	<p>2020</p>
+	<hr>
+	<div class="studio">
+		<p>To see my work in person visit <a href="https://westernavenuestudios.com/listing/jacob-giberson/">331 Western Ave Studios</a> in Lowell, MA</p>
+		<p>I also have work on display in Kennedy Building of Massachusetts College of Art and Design.</p>
+	</div>
 </div>
