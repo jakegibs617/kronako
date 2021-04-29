@@ -11,8 +11,21 @@
 		  <a title="prev" href="{{ .Permalink }}"> </a>
 		{{ end }}
 		</div>
-	<div class="content">{{ .Content }}</div>
+	<div class="content">
+		<!-- <div class="container"> -->
+		
+		<a href="{{ .Params.Image }}" data-lightbox="image-1" data-title="{{ .Params.Title }}"><img alt="{{ .Params.Title }}
+			" src="{{ .Params.Image }}"/></a>
+		<div class="specs">
+			<p>Pondering Through the Fog. What Will the Future Hold</p>
+			<p>Oil on Canvas</p>
+			<p>96" x 48"</p>
+			<p>2021</p>
+		</div>
 
+	<!-- </div> -->
+	</div>
+		
 		<div id=next_button>{{ with .PrevInSection }}
 		  <a title="next" href="{{ .Permalink }}"></a>
 		{{ end }}

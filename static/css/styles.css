@@ -104,16 +104,22 @@ footer{
 
 /* start single */
 .content{
-	/*padding: 0 20px;*/
-	display: inline-block;
-	margin: auto;
 	width: 100%;
+}
+.content a{
+	/*padding: 0 20px;*/
+	/*display: inline-block;*/
+	margin: auto;
+	width: 50%;
 	height: 70vh;
 }
-.content p img{
+.content a img{
 	/*padding: 50px;*/
 	max-height: 65vh;
 	max-width: 100%;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 .welcome{
