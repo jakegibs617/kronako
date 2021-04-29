@@ -1,0 +1,25 @@
+<h2 class="single-title">{{ .Page.Title }}</h2>
+
+			<div class="prevnext-bar">
+				<div id=prev_button>{{ with .NextInSection }}
+				  <a title="prev" href="{{ .Permalink }}"> </a>
+				{{ end }}
+				</div>
+			<div class="content">
+
+				<a href="{{ .Params.Image }}" data-lightbox="image-1" data-title="{{ .Params.Title }}"><img alt="{{ .Params.Title }}
+					" src="{{ .Params.Image }}"/></a>
+				<div class="specs">
+					<p>{{ .Params.Title }}</p>
+					<p>{{ .Params.Medium }}</p>
+					<p>{{ .Params.Dimensions }}</p>
+					<p>{{ .Params.dateCreated }}</p>
+				</div>
+
+			</div>
+			
+			<div id=next_button>{{ with .PrevInSection }}
+			  <a title="next" href="{{ .Permalink }}"></a>
+			{{ end }}
+			</div>
+		</div>
