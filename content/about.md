@@ -39,7 +39,7 @@ draft: false
 
 	<hr>
 	<div class="studio">
-		<p>To see my work in person visit <a href="https://westernavenuestudios.com/listing/jacob-giberson/">331 Western Ave Studios</a> in Lowell, MA</p>
+		<p>To see my work in person visit <a href="https://westernavenuestudios.com/listing/jacob-giberson/">380 Western Ave Studios</a> in Lowell, MA</p>
 		<p>I also have work on display in Kennedy Building of Massachusetts College of Art and Design.</p>
 	</div>
 </div>

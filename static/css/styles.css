@@ -27,11 +27,9 @@ footer{
 /* End footer */
 
 /* start grid */
-.featured-image img{
-	height: 250px;
-	width: 100%;
-	object-fit: cover;
-	object-position: center;
+.card:nth-child(1) {
+	/*grid-row-start / grid-column-start / grid-row-end / grid-column-end.*/
+	grid-area: 1 / 1 / span 3 / span 3;
 }
 .grid {
 	display: grid;
@@ -41,14 +39,6 @@ footer{
 	padding: 10px;
 	grid-auto-flow: row;
 	color: #718792;
-}
-.card:nth-child(1) {
-	/*grid-row-start / grid-column-start / grid-row-end / grid-column-end.*/
-	grid-area: 1 / 1 / span 3 / span 3;
-}
-.card:nth-child(1) .featured-image img{
-	object-fit: cover;
-	object-position: center;
 }
 .card {
 	background-color: rgba(250,250,250,0.2);
@@ -60,15 +50,52 @@ footer{
 .card a{
 	text-decoration: none;
 }
-
 .card:hover{
 	border-radius: 5px;
-
-
 	display: block;
 	opacity: 0.8;
 	background-image: #718792;
 }
+.featured-image img{
+	height: 250px;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+.card:nth-child(1) .featured-image img{
+  object-fit: scale-down;
+  object-position: -500px;
+  background-image: url(https://res.cloudinary.com/jakegibs617/image/upload/c_crop,h_250,q_auto:best,w_1000,y_950/v1619694470/pondering_through_fog.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media only screen and (max-width: 1200px) {
+	.card:nth-child(1) .featured-image img{
+	  background-image: url(https://res.cloudinary.com/jakegibs617/image/upload/c_crop,h_250,q_auto:best,w_1000,y_850/v1619694470/pondering_through_fog.jpg);
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.card:nth-child(1) .featured-image img{
+	  background-image: url(https://res.cloudinary.com/jakegibs617/image/upload/c_crop,h_250,q_auto:best,w_1000,y_850/v1619694470/pondering_through_fog.jpg);
+	}
+}
+@media only screen and (max-width: 800px) {
+	.card:nth-child(1) .featured-image img{
+	  background-image: url(https://res.cloudinary.com/jakegibs617/image/upload/c_crop,h_250,q_auto:best,w_800,y_850/v1619694470/pondering_through_fog.jpg);
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.card:nth-child(1) .featured-image img{
+	  background-image: url(https://res.cloudinary.com/jakegibs617/image/upload/c_crop,h_250,q_auto:best,w_375,y_850/v1619694470/pondering_through_fog.jpg);
+	  object-fit: cover;
+  	object-position: 0px -300px;
+	}
+}
+
+/* end grid */
 
 /* start nav */
 .disabled{

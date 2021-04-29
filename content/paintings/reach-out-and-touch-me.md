@@ -2,7 +2,7 @@
 title: "Reach Out and Touch Me"
 date: 2013-05-19T06:48:15-04:00
 draft: false
-medium: tbd
+medium: Oil on Canvas
 dateCreated: 2013
 image: https://res.cloudinary.com/jakegibs617/image/upload/v1558221524/reach-out-and-touch-me.png
 ---
