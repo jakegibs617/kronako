@@ -6,6 +6,7 @@ image: https://res.cloudinary.com/jakegibs617/image/upload/f_auto,q_99/v15582214
 medium: Ink, Graphite, Acrylic on Paper
 dimensions: 30" x 22"
 dateCreated: 2011
+# purchase_link: "https://fineartamerica.com/profiles/jacob-giberson"
 ---
 
 

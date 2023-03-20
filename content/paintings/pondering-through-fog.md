@@ -6,6 +6,7 @@ image: https://res.cloudinary.com/jakegibs617/image/upload/v1619694470/pondering
 medium: Oil on Canvas
 dimensions: 48" x 96"
 dateCreated: 2021
+# purchase_link: "https://fineartamerica.com/profiles/jacob-giberson"
 ---
 
 

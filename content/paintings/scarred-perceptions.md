@@ -7,6 +7,7 @@ image: https://res.cloudinary.com/jakegibs617/image/upload/v1558221396/scarred-p
 medium: Oil on Canvas
 dimensions: 96" x 48"
 dateCreated: 2013
+# purchase_link: "https://fineartamerica.com/profiles/jacob-giberson"
 ---
 
 

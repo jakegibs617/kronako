@@ -15,7 +15,12 @@
 					<p>{{ .Params.Dimensions }}</p>
 					<p>{{ .Params.dateCreated }}</p>
 				</div>
+				 {{ if (.Params.purchase_link ) }} 
 
+				<div class="purchase">
+					<button><a href="{{ .Params.purchase_link }}" target="_blank">Buy Print</a></button>
+				</div>
+				 {{ end }}
 			</div>
 			
 			<div id=next_button>{{ with .PrevInSection }}

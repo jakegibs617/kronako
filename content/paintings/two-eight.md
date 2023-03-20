@@ -6,6 +6,7 @@ image: https://res.cloudinary.com/jakegibs617/image/upload/f_auto,q_99/v15462252
 medium: Acrylic on Canvas
 dimensions: 27" x 57"
 dateCreated: 2018
+# purchase_link: "https://fineartamerica.com/profiles/jacob-giberson"
 ---
 
 

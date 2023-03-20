@@ -6,6 +6,7 @@ image: https://res.cloudinary.com/jakegibs617/image/upload/v1569968255/hellboy-w
 medium: Oil on Canvas
 dimensions: 48" x 24"
 dateCreated: 2019
+purchase_link: "https://fineartamerica.com/featured/clash-of-marvelinity-jacob-giberson.html"
 ---
 
 

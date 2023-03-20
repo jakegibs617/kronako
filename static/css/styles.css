@@ -290,3 +290,12 @@ a{
 /* ABOUT PAGE END */
 
 
+button {
+	display: block;
+	margin: 0 auto;
+}
+.purchase {
+  display: flex;
+  justify-content: center;
+}
+

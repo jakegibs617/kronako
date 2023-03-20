@@ -6,5 +6,6 @@ image: https://res.cloudinary.com/jakegibs617/image/upload/f_auto,q_99/v15459630
 medium: Acrylic on Canvas
 dimensions: 84" x 48"
 dateCreated: 2018
+# purchase_link: "https://fineartamerica.com/profiles/jacob-giberson"
 ---
 
