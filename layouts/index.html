@@ -9,16 +9,17 @@
 
 	
 	<div class="homeMenu">
-		<a href="/paintings">Paintings</a><br>
-		<a href="/about">About</a><br>
-		<!-- <a href="/photos">Photos</a> -->
+		<li class="homemenu-links">
+			<a href="/paintings">Paintings</a>
+			<a href="/about">About</a>
+		</li>
 	</div>
 
-<div class="welcome">
-	Instagram <a style="font-weight:bold;color:tomato;" href="https://www.instagram.com/jacobgiberson_studio/">@jacobgiberson_studio</a>
-</div>
+
+<!-- <br> -->
+{{ partial "welcome" . }}
+{{ partial "footer" . }}
 <br>
-	{{ partial "footer" . }}
 
 
 </body>
