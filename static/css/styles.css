@@ -1,27 +1,21 @@
-/*
-$Primary: #455a64;
-$Light: #718792;
-$P — Dark: #1c313a;
-*/
-
 body {
 	font-family: 'Comfortaa', cursive;
 	color: #FFF;
-	top:0;
+	top: 0;
 	overflow-x: hidden;
 	background-repeat: no-repeat;
 	background-position: center;
-    background-size: cover;
+	background-size: cover;
 }
 
 /* Start footer */
 
-footer{
+footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background-color: lightgrey;
-	color: rgba(250,250,250,1);
+	color: rgba(250, 250, 250, 1);
 	text-align: center;
 	padding: 20px;
 	margin-bottom: 20px;
@@ -35,6 +29,7 @@ footer{
 	/*grid-row-start / grid-column-start / grid-row-end / grid-column-end.*/
 	grid-area: 1 / 1 / span 3 / span 3;
 }
+
 .grid {
 	display: grid;
 	grid: 150px / auto auto auto;
@@ -44,81 +39,89 @@ footer{
 	grid-auto-flow: row;
 	color: #718792;
 }
+
 .card {
-	background-color: rgba(250,250,250,0.2);
+	background-color: rgba(250, 250, 250, 0.2);
 	text-align: center;
 	padding: 0;
 	font-size: 1rem;
 	position: relative;
 }
-.card a{
+
+.card a {
 	text-decoration: none;
 }
-.card:hover{
+
+.card:hover {
 	border-radius: 5px;
 	display: block;
 	opacity: 0.8;
 	background-image: #718792;
 }
-.featured-image img{
+
+.featured-image img {
 	height: 250px;
 	width: 100%;
 	object-fit: cover;
 	object-position: center;
 }
 
-.card:nth-child(1) .featured-image img{
-  object-fit: scale-down;
-  object-position: -500px;
-  background-image: url(https://res.cloudinary.com/jakegibs617/image/upload/c_crop,h_250,q_auto:best,w_1000,y_950/v1619694470/pondering_through_fog.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+.card:nth-child(1) .featured-image img {
+	object-fit: scale-down;
+	object-position: -500px;
+	background-image: url(https://res.cloudinary.com/jakegibs617/image/upload/c_crop,h_250,q_auto:best,w_1000,y_950/v1619694470/pondering_through_fog.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
+
 @media only screen and (max-width: 1200px) {
-	.card:nth-child(1) .featured-image img{
-	  background-image: url(https://res.cloudinary.com/jakegibs617/image/upload/c_crop,h_250,q_auto:best,w_1000,y_850/v1619694470/pondering_through_fog.jpg);
+	.card:nth-child(1) .featured-image img {
+		background-image: url(https://res.cloudinary.com/jakegibs617/image/upload/c_crop,h_250,q_auto:best,w_1000,y_850/v1619694470/pondering_through_fog.jpg);
 	}
 }
 
 @media only screen and (max-width: 1000px) {
-	.card:nth-child(1) .featured-image img{
-	  background-image: url(https://res.cloudinary.com/jakegibs617/image/upload/c_crop,h_250,q_auto:best,w_1000,y_850/v1619694470/pondering_through_fog.jpg);
+	.card:nth-child(1) .featured-image img {
+		background-image: url(https://res.cloudinary.com/jakegibs617/image/upload/c_crop,h_250,q_auto:best,w_1000,y_850/v1619694470/pondering_through_fog.jpg);
 	}
 }
+
 @media only screen and (max-width: 800px) {
-	.card:nth-child(1) .featured-image img{
-	  background-image: url(https://res.cloudinary.com/jakegibs617/image/upload/c_crop,h_250,q_auto:best,w_800,y_850/v1619694470/pondering_through_fog.jpg);
+	.card:nth-child(1) .featured-image img {
+		background-image: url(https://res.cloudinary.com/jakegibs617/image/upload/c_crop,h_250,q_auto:best,w_800,y_850/v1619694470/pondering_through_fog.jpg);
 	}
 }
 
 @media only screen and (max-width: 375px) {
-	.card:nth-child(1) .featured-image img{
-	  background-image: url(https://res.cloudinary.com/jakegibs617/image/upload/c_crop,h_250,q_auto:best,w_375,y_850/v1619694470/pondering_through_fog.jpg);
-	  object-fit: cover;
-  	object-position: 0px -300px;
+	.card:nth-child(1) .featured-image img {
+		background-image: url(https://res.cloudinary.com/jakegibs617/image/upload/c_crop,h_250,q_auto:best,w_375,y_850/v1619694470/pondering_through_fog.jpg);
+		object-fit: cover;
+		object-position: 0px -300px;
 	}
 }
 
 /* end grid */
 
 /* start nav */
-.disabled{
+.disabled {
 	color: #718792;
 }
 
 /* start single */
-.content{
+.content {
 	width: 100%;
 }
-.content a{
+
+.content a {
 	/*padding: 0 20px;*/
 	/*display: inline-block;*/
 	margin: auto;
 	width: 50%;
 	height: 70vh;
 }
-.content a img{
+
+.content a img {
 	/*padding: 50px;*/
 	max-height: 65vh;
 	max-width: 100%;
@@ -126,40 +129,45 @@ footer{
 	margin-left: auto;
 	margin-right: auto;
 }
-.welcome{
-	background-color:#fff;
-	padding:140px;
-	color:black;
+
+.welcome {
+	background-color: #fff;
+	padding: 140px;
+	color: black;
 	margin: auto 0 -50px;
 	text-align: center;
 	display: flex;
-    justify-content: center;
+	justify-content: center;
 }
-.homeMenu{
+
+.homeMenu {
 	font-size: 1.5rem;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-.homeMenu a{
+
+.homeMenu a {
 	display: block;
 	margin-bottom: 1rem;
 }
+
 .homemenu-links {
-  list-style: none;
-  padding: 0;
-  text-align: center
+	list-style: none;
+	padding: 0;
+	text-align: center
 }
 
 .homemenu-links li {
-  margin-bottom: 1rem;
+	margin-bottom: 1rem;
 }
+
 .site-name {
-	display:inline-block;
-	height:50px;
+	display: inline-block;
+	height: 50px;
 	width: 250px;
-	margin:10px;
+	margin: 10px;
 	background-image: url(https://res.cloudinary.com/jakegibs617/image/upload/v1545963083/site-title_1.png);
 	background-position: center;
 	background-size: cover;
@@ -167,136 +175,151 @@ footer{
 	background-repeat: no-repeat;
 }
 
-div#next_button a, div#prev_button a{
-    height: 50px;
-    width: auto;
-    border-radius: 20px;
-    border: none;
-    box-shadow: 2px 3px 7px rgba(0,0,0,0.23), 0px 0px 0px rgba(255, 255, 255, 0.3);
-    margin: 28px 50px 0 50px;
+div#next_button a, div#prev_button a {
+	height: 50px;
+	width: auto;
+	border-radius: 20px;
+	border: none;
+	box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.23), 0px 0px 0px rgba(255, 255, 255, 0.3);
+	margin: 28px 50px 0 50px;
 }
+
 div#next_button a:hover, div#prev_button a:hover {
-  box-shadow: 3px 4px 8px rgba(0,0,0,0.25) inset, -8px -8px 12px rgba(255,255,255,0.3) inset;
+	box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.25) inset, -8px -8px 12px rgba(255, 255, 255, 0.3) inset;
 }
+
 /* div#next_button a{
-	float: right;
-	margin: 0px -10px;
+  float: right;
+  margin: 0px -10px;
 } */
-div#prev_button a:before, div#next_button a:after{
+div#prev_button a:before, div#next_button a:after {
 	/* transform: translate(-50%, -50%); */
-	color: rgba(0,0,0,0.1);
+	color: rgba(0, 0, 0, 0.1);
 	display: flex;
 	padding: 5px;
 }
-div#next_button a:after{
+
+div#next_button a:after {
 	content: '\003E';
 }
-div#prev_button a{
+
+div#prev_button a {
 	/* float: left; */
 }
-div#prev_button a:before{
+
+div#prev_button a:before {
 	content: '\003C';
 }
+
 /* .prevnext-bar{
-	color: #999;
-	padding: 20px;
-	display: flex;
+  color: #999;
+  padding: 20px;
+  display: flex;
     width: 85vw;
     margin: auto;
 } */
 
 @media only screen and (max-width: 900px) {
 	.site-name {
-		width:100%;
-		height:100px;
+		width: 100%;
+		height: 100px;
 	}
-	body{
+
+	body {
 		height: -webkit-fill-available;
 	}
-	.homeMenu{
+
+	.homeMenu {
 		/* padding:50% 0; */
 	}
-	.content p img{
+
+	.content p img {
 		max-height: 500px;
 		/*width: 100%;*/
 		padding: 10px;
 	}
-	.content{
-		margin-bottom:20px;
-	}
-	.welcome{
-		padding:50px 20px;
-		margin-bottom:0px;
-	}
-    .w3-top {
-	    font-size: 1.5rem;
-	}
-	/* div#next_button a{
-		float: right;
-	}
-	div#next_button a, div#prev_button a {
-	    top: 85vh;
-	} */
 
+	.content {
+		margin-bottom: 20px;
+	}
+
+	.welcome {
+		padding: 50px 20px;
+		margin-bottom: 0px;
+	}
+
+	.w3-top {
+		font-size: 1.5rem;
+	}
 }
+
 .content p {
-    /*width: 80%;*/
-    margin: 10px auto;
-    color: #1c313a;
-    text-align: center;
+	/*width: 80%;*/
+	margin: 10px auto;
+	color: #1c313a;
+	text-align: center;
 }
-h2.single-title{
+
+h2.single-title {
 	/*padding: 20px 0 0 0;*/
 	text-align: center;
 	font-family: 'Comfortaa', cursive;
 	color: #000;
 	font-size: 18px;
 }
-.date{
+
+.date {
 	text-align: center;
-	color: rgba(0,0,0,0.5);
+	color: rgba(0, 0, 0, 0.5);
 	margin-top: 50px;
 }
-.container{
+
+.container {
 	width: 80%;
-    margin: 0 auto;
+	margin: 0 auto;
 }
 
 /* end single */
 
-div.specs{
+div.specs {
 	line-height: 12px;
 	margin-top: 25px;
 }
-div.specs p{
+
+div.specs p {
 	padding: 0px;
 }
-a{
-	text-decoration:none;
+
+a {
+	text-decoration: none;
 }
 
 .inline-svg {
-  display: inline-block;
-  height: 1.15rem;
-  width: 1.15rem;
-  top: 0.15rem;
-  position: relative;
+	display: inline-block;
+	height: 1.15rem;
+	width: 1.15rem;
+	top: 0.15rem;
+	position: relative;
 }
+
 /* ABOUT PAGE START */
 .about-page {
 	width: 75vw;
 	margin: auto;
 }
-.about-page p{
+
+.about-page p {
 	text-align: left;
 }
-.studio p{
+
+.studio p {
 	color: black;
 	font-size: 0.75rem;
 	padding: 0 20px;
 	line-height: 10px;
 }
-.studio a{
+
+.studio a {
 	color: tomato;
 	text-decoration: underline;
 }
@@ -308,57 +331,59 @@ button {
 	display: block;
 	margin: 0 auto;
 }
+
 .purchase {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
-
 .pagination {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 16px;
 }
 
 .pagination a {
-  display: inline-block;
-  padding: 8px 16px;
-  margin: 0 4px;
-  color: #333;
-  text-decoration: none;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+	display: inline-block;
+	padding: 8px 16px;
+	margin: 0 4px;
+	color: #333;
+	text-decoration: none;
+	border: 1px solid #ddd;
+	border-radius: 4px;
 }
 
 .pagination a.active {
-  background-color: #007bff;
-  color: #fff;
-  border-color: #007bff;
+	background-color: #007bff;
+	color: #fff;
+	border-color: #007bff;
 }
+
 .pagination a:hover {
-  background-color: #f5f5f5;
+	background-color: #f5f5f5;
 }
 
 .pagination a.active:hover {
-  background-color: #007bff;
-  color: #fff;
+	background-color: #007bff;
+	color: #fff;
 }
 
 .pagination a.disabled {
-  opacity: 0.5;
-  pointer-events: none;
+	opacity: 0.5;
+	pointer-events: none;
 }
+
 .pagination a.prev {
-  background-image: url('previous.svg');
-  background-repeat: no-repeat;
-  background-position: left center;
-  padding-left: 24px;
+	background-image: url('previous.svg');
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 24px;
 }
 
 .pagination a.next {
-  background-image: url('next.svg');
-  background-repeat: no-repeat;
-  background-position: right center;
-  padding-right: 24px;
+	background-image: url('next.svg');
+	background-repeat: no-repeat;
+	background-position: right center;
+	padding-right: 24px;
 }

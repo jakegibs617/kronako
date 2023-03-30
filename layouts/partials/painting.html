@@ -1,6 +1,6 @@
 <h2 class="single-title">{{ .Page.Title }}</h2>
 
-			
+
 			<div class="content">
 
 				<a href="{{ .Params.Image }}" data-lightbox="image-1" data-title="{{ .Params.Title }}"><img alt="{{ .Params.Title }}
@@ -11,14 +11,14 @@
 					<p>{{ .Params.Dimensions }}</p>
 					<p>{{ .Params.dateCreated }}</p>
 				</div>
-				 {{ if (.Params.purchase_link ) }} 
+				 {{ if (.Params.purchase_link ) }}
 
 				<div class="purchase">
 					<button><a href="{{ .Params.purchase_link }}" target="_blank">Buy Print</a></button>
 				</div>
 				 {{ end }}
 			</div>
-			
+
 			<div class="pagination">
 				<div id=prev_button>{{ with .NextInSection }}
 					<a title="prev" href="{{ .Permalink }}"> </a>

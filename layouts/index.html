@@ -1,27 +1,23 @@
 <!DOCTYPE html>
 
 <html>
+  {{ partial "head" . }}
+  <body
+    style="
+      background-image: url(https://res.cloudinary.com/jakegibs617/image/upload/c_crop,h_800,q_auto:best,w_1000,y_675/v1619694470/pondering_through_fog.jpg);
+    "
+  >
+    {{ partial "nav" . }} {{ partial "gtm" . }}
 
-{{ partial "head" . }}
-<body style="background-image: url(https://res.cloudinary.com/jakegibs617/image/upload/c_crop,h_800,q_auto:best,w_1000,y_675/v1619694470/pondering_through_fog.jpg);">
-	{{ partial "nav" . }}
-	{{ partial "gtm" . }}
+    <div class="homeMenu">
+      <li class="homemenu-links">
+        <a href="/paintings">Paintings</a>
+        <a href="/about">About</a>
+      </li>
+    </div>
 
-	
-	<div class="homeMenu">
-		<li class="homemenu-links">
-			<a href="/paintings">Paintings</a>
-			<a href="/about">About</a>
-		</li>
-	</div>
-
-
-<!-- <br> -->
-{{ partial "welcome" . }}
-{{ partial "footer" . }}
-<br>
-
-
-</body>
-
+    <!-- <br> -->
+    {{ partial "welcome" . }} {{ partial "footer" . }}
+    <br />
+  </body>
 </html>
